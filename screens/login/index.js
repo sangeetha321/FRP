@@ -91,13 +91,7 @@ export default class LoginScreen extends Component {
   };
   render() {
     return (
-      <View style={styles.container}>
-      //  <Button
-      //   title="Go to Jane's profile"
-      //   onPress={() =>
-      //     navigate('Profile', { name: 'Jane' })
-      //   }
-      // />
+      <View style={styles.container}>      
         <Image source={background} style={styles.background} resizeMode="cover">
           <View style={styles.logoWrap}>
             <Image source={logo} style={styles.logo} resizeMode="contain"/>
